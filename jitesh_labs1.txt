@@ -2,51 +2,51 @@ In terminal we start with our directory using 'mkdir'.
 leave space and type your directory name like 'jitesh'.
 then using 'cd' give space and write your directory name to get into the directory.
 type 'vim' and giving space enter your filename.
-You enter into the directory
-write a paragraph with minimum of 5 to 6 lines
-then try out all the commands using 'esc' to enter into command mode from insert mode
-insert mode is like normal text editor and can be used by pressing'i' during command mode
-most of them below are command mode
-x-to delete the unwanted character
-u-to undo the last command and U to undo the whole line
-CTRL-R-to redo
-A- to append text at the end
-:wq-to save and exit
-:q!- to trash all the changes
-dw-to move cursor at beginning of word to delete that word
-2w-move cursor 2 words forward
-3e-move cursor to end of the third word forward
-0(zero)-move to start of line
-d2w-deletes 2 words
-d3w-deletes 3 words and sly
-dd- delete the line 
-2dd-delete to line number can be changed for deleting the number of consecutive words
-p-puts the previously delted word after the cursor
-r-to replace the letter
-ce-to change until the end of a word
-ce-deltes the word and end of a word
-G-move to bottom of line
-gg-move to start of the file
-%-find a matching
-:s/ol/new/g-to substitute old with new letter globally
-/-backward search 
-?-forward search
-:!-to run shell commands
-:w-TEST.save the file
-v-starts visual mode
-:r-filename will insert the content into the current file
-R-replace more than 1 character
-y-copy text using v visual mode and p to paste
-yw-copy yanks one word
-o-opens a line below cursor and start insert mode
-O-opens a line above the cursor
-a-inserts text after cursor
-A-inserts text after the end of a word
-e-command moves to end of the word
-R-enters replace mode
-ctrl-w- to jump to one window to another
-type a command :e and press ctrl+d to list all command name starts with :e and press tab to complete the command
-then save and exit 
-type gedit space directory name then underscore 'labs1.txt' and enter
+You enter into the directory.
+write a paragraph with minimum of 5 to 6 lines.
+then try out all the commands using 'esc' to enter into command mode from insert mode.
+insert mode is like normal text editor and can be used by pressing'i' during command mode.
+most of them below are command mode.
+x-to delete the unwanted character.
+u-to undo the last command and U to undo the whole line.
+CTRL-R-to redo.
+A- to append text at the end.
+:wq-to save and exit.
+:q!- to trash all the changes.
+dw-to move cursor at beginning of word to delete that word.
+2w-move cursor 2 words forward.
+3e-move cursor to end of the third word forward.
+0(zero)-move to start of line.
+d2w-deletes 2 words.
+d3w-deletes 3 words and similarly.
+dd- delete the line.
+2dd-delete to line number can be changed for deleting the number of consecutive words.
+p-puts the previously delted word after the cursor.
+r-to replace the letter.
+ce-to change until the end of a word.
+ce-deltes the word and end of a word.
+G-move to bottom of line.
+gg-move to start of the file.
+%-find a matching.
+:s/ol/new/g-to substitute old with new letter globally.
+/-backward search .
+?-forward search.
+:!-to run shell commands.
+:w-TEST.save the file.
+v-starts visual mode.
+:r-filename will insert the content into the current file.
+R-replace more than 1 character.
+y-copy text using v visual mode and p to paste.
+yw-copy yanks one word.
+o-opens a line below cursor and start insert mode.
+O-opens a line above the cursor.
+a-inserts text after cursor.
+A-inserts text after the end of a word.
+e-command moves to end of the word.
+R-enters replace mode.
+ctrl-w- to jump to one window to another.
+type a command :e and press ctrl+d to list all command name starts with :e and press tab to complete the command.
+then save and exit.
+type gedit space directory name then underscore 'labs1.txt' and enter.
 type the procedures and save and upload.
 
