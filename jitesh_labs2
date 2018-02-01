@@ -1,0 +1,56 @@
+This is my second unix shell lab session.
+Today im here to learn some more new shell commands.
+Im here to learn using commands in unix.
+Im going to try all the commands here
+applying the commands here now ,
+with default $ sign we type the commands ahead now.
+cal- opens calendar
+date- we get information regarding day,month,date,time,standard time,year.
+date +%h-we get only the name of month.
+man date-displays the current time in the following format or to set the system date.
+ -d-display time described by STRING, not 'now'
+ --debug-annotate the parsed date, and warn about questionable  usage  to stderr
+ -f-like once for each line of DATEFILE.
+ -I[FMt]-output of date/time  in ISO 8601 format.     
+ -R-output date and time in RFC 2822 format.
+ -r-display the last modification time of FILE.
+ -s-set time described by STRING.
+ -u-print or set Coordinated Universal Time (UTC)--help display this help and exit.
+ --version-output version information and exit.
+Press Q to exit.
+type ls then,
+cd jitesh(directory name)-to change into another directory.
+ls-shows directory name
+ls -l-shows recent files in a format given below,
+      d/rwx/r_x/r_x/2 cs2016... 4096 Jan 27 10:34 real.txt
+ln-dd.txt to new.txt
+total 8-shows the total disk blocks.
+cat- new.txt,to creat and view.
+history-shows the number of commands so far.
+!25- to rerun the command.
+We have few commands like who,ls,cal,bc,date,time,uname.
+We start with who command,
+we type man who and shows who is logged in with the description about logged in like given below.
+-a-same as -b -d --login -p -r -t -T -u
+-b-time of last system boot
+-d-print dead processes
+-H-print line of column headings
+--ips  print  ips  instead  of  hostnames. with --lookup, canonicalises based on stored IP, if available, rather than stored hostname.
+-l-print system login processes
+--lookup-attempt to canonicalize hostnames via DNS
+-m-only hostname and user associated with stdin
+-p-print active processes spawned by init
+-q-all login names and number of users logged on
+-r-print current runlevel
+-s-print only name, line, and time (default)
+-t-print last system clock change
+-T,-w-add user's message status as +, - or ?
+-u-list users logged in
+--message-same as -T
+--writable-same as -T
+--help-display this help and exit
+--version-output version information and exit.
+Save and upload for now.
+
+
+
