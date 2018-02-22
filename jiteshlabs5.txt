@@ -1,0 +1,34 @@
+Q.Write a shellscript to check whether a given number is postive or negative.
+We follow the following..
+
+echo "enter a number"
+read n
+if [ $n -gt 0 ]
+then
+        echo "number is positive"
+else
+        if [ $n -eq 0 ]
+        then
+                echo "number is zero"
+        else
+                echo "number is negative!!"
+        fi
+fi
+
+Q. Write a shellscript to check whether a number is prime or not in command prompt.
+follow the following..
+
+echo "enter a number"
+read num
+i=2
+while [$i -lt $num]
+do
+        if [`expr $num  %$i` -eq 0]
+        then
+                echo "$num is not a prime number"
+                echo "since division by $1"
+                exit
+        fi
+        i=`expr $i +1`
+done
+echo "$num is a prime number"                         
